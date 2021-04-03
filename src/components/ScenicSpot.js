@@ -14,9 +14,9 @@ const SpotDescription = styled.p`
   font-size: 1rem;
 `;
 
-export default function ScenicSpot({ name, description }) {
+export default function ScenicSpot({ spotRef, name, description }) {
   return (
-    <Spot>
+    <Spot ref={spotRef}>
       <SpotName>{name}</SpotName>
       <SpotDescription>{description}</SpotDescription>
     </Spot>

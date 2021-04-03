@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { HashRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import styled from 'styled-components';
-import { CurrentCityContext } from './contexts';
+import { CityProvider } from './CityContext';
 import ScenicSpots from './ScenicSpots';
+import Navbar from './components/Navbar';
 
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -10,23 +11,25 @@ const Wrapper = styled.div`
   padding: 3rem 1.5rem;
 `;
 
-function App() {
-  const [currentCity, setCurrentCity] = useState('All');
+const Title = styled.h1`
+  margin-bottom: 2rem;
+  font-size: 2rem;
+`;
 
+export default function App() {
   return (
-    <CurrentCityContext.Provider value={{ currentCity, setCurrentCity }}>
+    <CityProvider>
       <Wrapper>
         <Router>
+          <Title>台灣觀光景點</Title>
+          <Navbar />
           <Switch>
             <Redirect exact from="/" to="/scenicSpot" />
-            <Redirect exact from="/scenicSpot/All" to="/scenicSpot" />
             <Route exact path="/scenicSpot" component={ScenicSpots} />
             <Route path="/scenicSpot/:city" component={ScenicSpots} />
           </Switch>
         </Router>
       </Wrapper>
-    </CurrentCityContext.Provider>
+    </CityProvider>
   );
 }
-
-export default App;
