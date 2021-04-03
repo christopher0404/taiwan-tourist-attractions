@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/taiwan-tourist-attractions/static/css/main.3e245ea8.chunk.css",
-    "main.js": "/taiwan-tourist-attractions/static/js/main.705b4585.chunk.js",
-    "main.js.map": "/taiwan-tourist-attractions/static/js/main.705b4585.chunk.js.map",
-    "runtime-main.js": "/taiwan-tourist-attractions/static/js/runtime-main.c7f18b45.js",
-    "runtime-main.js.map": "/taiwan-tourist-attractions/static/js/runtime-main.c7f18b45.js.map",
-    "static/js/2.cf92faf1.chunk.js": "/taiwan-tourist-attractions/static/js/2.cf92faf1.chunk.js",
-    "static/js/2.cf92faf1.chunk.js.map": "/taiwan-tourist-attractions/static/js/2.cf92faf1.chunk.js.map",
+    "main.js": "/taiwan-tourist-attractions/static/js/main.2e916323.chunk.js",
+    "main.js.map": "/taiwan-tourist-attractions/static/js/main.2e916323.chunk.js.map",
+    "runtime-main.js": "/taiwan-tourist-attractions/static/js/runtime-main.644e3739.js",
+    "runtime-main.js.map": "/taiwan-tourist-attractions/static/js/runtime-main.644e3739.js.map",
+    "static/js/2.91eb869d.chunk.js": "/taiwan-tourist-attractions/static/js/2.91eb869d.chunk.js",
+    "static/js/2.91eb869d.chunk.js.map": "/taiwan-tourist-attractions/static/js/2.91eb869d.chunk.js.map",
     "index.html": "/taiwan-tourist-attractions/index.html",
     "static/css/main.3e245ea8.chunk.css.map": "/taiwan-tourist-attractions/static/css/main.3e245ea8.chunk.css.map",
-    "static/js/2.cf92faf1.chunk.js.LICENSE.txt": "/taiwan-tourist-attractions/static/js/2.cf92faf1.chunk.js.LICENSE.txt"
+    "static/js/2.91eb869d.chunk.js.LICENSE.txt": "/taiwan-tourist-attractions/static/js/2.91eb869d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7f18b45.js",
-    "static/js/2.cf92faf1.chunk.js",
+    "static/js/runtime-main.644e3739.js",
+    "static/js/2.91eb869d.chunk.js",
     "static/css/main.3e245ea8.chunk.css",
-    "static/js/main.705b4585.chunk.js"
+    "static/js/main.2e916323.chunk.js"
   ]
 }
