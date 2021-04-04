@@ -24,9 +24,9 @@ export default function App() {
           <Title>台灣觀光景點</Title>
           <Navbar />
           <Switch>
-            <Redirect exact from="/" to="/scenicSpot" />
-            <Route exact path="/scenicSpot" component={ScenicSpots} />
-            <Route path="/scenicSpot/:city" component={ScenicSpots} />
+            <Redirect exact from='/' to='/scenicSpot' />
+            <Route exact path='/scenicSpot' component={ScenicSpots} />
+            <Route path='/scenicSpot/:city' component={ScenicSpots} />
           </Switch>
         </Router>
       </Wrapper>
